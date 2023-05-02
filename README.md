@@ -1,5 +1,13 @@
 # Substrate Node Template
 
+Run using:
+
+* `rustup install nightly-2023-01-01`
+* `rustup target add wasm32-unknown-unknown --toolchain nightly-2023-01-01`
+* `export WASM_BUILD_TOOLCHAIN=nightly-2023-01-01`
+* `cargo build --package node-template -- --dev`
+
+
 A fresh [Substrate](https://substrate.io/) node, ready for hacking :rocket:
 
 A standalone version of this template is available for each release of Polkadot in the [Substrate Developer Hub Parachain Template](https://github.com/substrate-developer-hub/substrate-parachain-template/) repository.
